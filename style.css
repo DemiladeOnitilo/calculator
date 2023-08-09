@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: black;
+    color: white;
+    width: 340px;
+    height: 450px;
+    border-radius: 5%;
+}
+.btn {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: none;
+    padding: 20px;
+
+}
+#inputBox {
+    margin-top: 20px;
+    width: 290px;
+    height: 50px;
+    margin-left: 20px;
+}
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
